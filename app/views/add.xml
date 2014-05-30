@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="addWin" title="Add Item" class="container" modal="true" onOpen="focusTextField">
+  	<TextField id="itemField" hintText="What task do you want to add?" onReturn="closeKeyboard"/>
+  	<Button class="button" onClick="addItem">Add Task</Button>
+  	<Button class="button" onClick="closeWindow">Cancel</Button>
+	</Window>
+</Alloy>

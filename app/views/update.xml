@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="updateWin" title="Update Item" class="container" modal="true" onOpen="focusTextField">
+  	<TextField id="itemField" hintText="{item}" onReturn="closeKeyboard"/>
+  	<Button class="button" onClick="updateItem">Update Task</Button>
+  	<Button class="button" onClick="closeWindow">Cancel</Button>
+	</Window>
+</Alloy>
